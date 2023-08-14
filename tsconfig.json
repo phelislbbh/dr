@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "commonjs",
+    "strict": true,
+    "outDir": "./dist",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": [
+    "index.ts",
+    "src/**/*.ts",
+    "tests/models/*.ts",
+    "tests/models/unit/pharmacy/pharmacy.test.ts"
+  ],
+  "exclude": ["node_modules"]
+}
